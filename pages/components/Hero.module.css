@@ -1,0 +1,47 @@
+/* components/Hero.module.css */
+.hero {
+  text-align: center;
+  padding: 6rem 1rem 4rem;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.03em;
+  color: var(--color-primary);
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: var(--color-neutral);
+  max-width: 540px;
+  margin: 0 auto 2.5rem;
+}
+
+.btnPrimary {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 700;
+  padding: 1rem 2.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.125rem;
+  box-shadow: 0 8px 15px rgba(37, 99, 235, 0.25);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+.btnPrimary:hover,
+.btnPrimary:focus {
+  background-color: #1e40af;
+  outline: none;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+}
