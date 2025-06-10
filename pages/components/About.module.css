@@ -1,0 +1,8 @@
+/* components/About.module.css */
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--color-neutral);
+  font-size: 1.125rem;
+}
